@@ -1,0 +1,141 @@
+/* Загальні стилі */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header.header {
+    background-color: #b0ff9a; /* Світло-зелений */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+section.fold {
+    background-color: #ffe4a6; /* Світло-жовтий */
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Місце для фотографій */
+section.photos {
+    background-color: #ffbfb3; /* Рожевий */
+    padding: 20px;
+    text-align: center;
+    max-width: 1080px; 
+    margin: 0 auto; /* Центрування */
+}
+
+.photo-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.photo {
+    background-color: #cfcfcf; /* Сірий */
+    width: 360px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    font-size: 16px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Місце для слайдера */
+section.slider {
+    background-color: #615959; /* Світло-жовтий */
+    padding: 20px;
+    text-align: center;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px; /* Ширина як у фолда */
+    margin: 0 auto;
+}
+
+.slide {
+    background-color: #cfcfcf; /* Сірий */
+    width: 360px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    font-size: 16px;
+}
+
+/* Перший блок "Тут багато тексту" */
+section.text-section {
+    background-color: #ffbfb3; /* Рожевий */
+    padding: 20px;
+    text-align: center;
+    max-width: 1080px; /* Однакова ширина як у фотографій */
+    margin: 0 auto;
+}
+
+.text-section p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Другий блок "Тут багато тексту" (оранжевий, збільшена висота) */
+section.text-section-orange {
+    background-color: #ff9f00; /* Оранжевий */
+    padding: 40px; /* Збільшена висота */
+    text-align: center;
+    max-width: 1080px; 
+    margin: 0 auto;
+}
+
+.text-section-orange p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Додатковий блок "Тут багато тексту" */
+section.text-section-extra {
+    background-color: #ffbfb3; /* Рожевий */
+    padding: 20px;
+    text-align: center;
+    max-width: 1080px; 
+    margin: 0 auto;
+}
+
+.text-section-extra p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Футер */
+footer.footer {
+    background-color: #56d575; /* Зелений */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
